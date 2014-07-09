@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		D637249B193F572600B7B4E0 /* aggregate */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D637249C193F572600B7B4E0 /* Build configuration list for PBXAggregateTarget "aggregate" */;
+			buildPhases = (
+				D637249F193F572E00B7B4E0 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = aggregate;
+			productName = aggregate;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		D62F02EA195095FD00FE69BF /* UITextView+Duducat.h in Headers */ = {isa = PBXBuildFile; fileRef = D62F02E8195095FD00FE69BF /* UITextView+Duducat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D62F02EB195095FD00FE69BF /* UITextView+Duducat.m in Sources */ = {isa = PBXBuildFile; fileRef = D62F02E9195095FD00FE69BF /* UITextView+Duducat.m */; };
+		D6372410193F487400B7B4E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D637240F193F487400B7B4E0 /* Foundation.framework */; };
+		D6372412193F487400B7B4E0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6372411193F487400B7B4E0 /* CoreGraphics.framework */; };
+		D6372414193F487400B7B4E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6372413193F487400B7B4E0 /* UIKit.framework */; };
+		D637241A193F487400B7B4E0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D6372418193F487400B7B4E0 /* InfoPlist.strings */; };
+		D637241C193F487400B7B4E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D637241B193F487400B7B4E0 /* main.m */; };
+		D6372420193F487400B7B4E0 /* DuducatAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D637241F193F487400B7B4E0 /* DuducatAppDelegate.m */; };
+		D6372423193F487400B7B4E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6372421193F487400B7B4E0 /* Main.storyboard */; };
+		D6372426193F487400B7B4E0 /* DuducatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6372425193F487400B7B4E0 /* DuducatViewController.m */; };
+		D6372428193F487400B7B4E0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6372427193F487400B7B4E0 /* Images.xcassets */; };
+		D637246A193F4AA900B7B4E0 /* Duducat.m in Sources */ = {isa = PBXBuildFile; fileRef = D637245A193F4AA900B7B4E0 /* Duducat.m */; };
+		D637246B193F4AA900B7B4E0 /* DuducatNetUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D637245C193F4AA900B7B4E0 /* DuducatNetUtil.m */; };
+		D637246C193F4AA900B7B4E0 /* DuducatObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D637245E193F4AA900B7B4E0 /* DuducatObject.m */; };
+		D637246D193F4AA900B7B4E0 /* DuducatOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D6372460193F4AA900B7B4E0 /* DuducatOperation.m */; };
+		D637246E193F4AA900B7B4E0 /* DuducatSharedDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = D6372462193F4AA900B7B4E0 /* DuducatSharedDownloader.m */; };
+		D637246F193F4AA900B7B4E0 /* DuducatTextOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D6372464193F4AA900B7B4E0 /* DuducatTextOperation.m */; };
+		D6372481193F4EC200B7B4E0 /* UIImageView+DuducatSDWebImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D637247A193F4EC200B7B4E0 /* UIImageView+DuducatSDWebImageView.m */; };
+		D6372482193F4EC200B7B4E0 /* UILabel+Duducat.m in Sources */ = {isa = PBXBuildFile; fileRef = D637247C193F4EC200B7B4E0 /* UILabel+Duducat.m */; };
+		D6372488193F524700B7B4E0 /* DuducatDBUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D6372486193F524700B7B4E0 /* DuducatDBUtil.m */; };
+		D6372489193F524700B7B4E0 /* DuducatDBUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = D6372487193F524700B7B4E0 /* DuducatDBUtil.h */; };
+		D637248A193F538A00B7B4E0 /* UIImageView+DuducatSDWebImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = D6372479193F4EC200B7B4E0 /* UIImageView+DuducatSDWebImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D637248B193F538A00B7B4E0 /* UILabel+Duducat.h in Headers */ = {isa = PBXBuildFile; fileRef = D637247B193F4EC200B7B4E0 /* UILabel+Duducat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D637248C193F538A00B7B4E0 /* Duducat.h in Headers */ = {isa = PBXBuildFile; fileRef = D6372459193F4AA900B7B4E0 /* Duducat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D637248D193F538A00B7B4E0 /* DuducatNetUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = D637245B193F4AA900B7B4E0 /* DuducatNetUtil.h */; };
+		D637248E193F538A00B7B4E0 /* DuducatObject.h in Headers */ = {isa = PBXBuildFile; fileRef = D637245D193F4AA900B7B4E0 /* DuducatObject.h */; };
+		D637248F193F538A00B7B4E0 /* DuducatOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = D637245F193F4AA900B7B4E0 /* DuducatOperation.h */; };
+		D6372490193F538A00B7B4E0 /* DuducatSharedDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = D6372461193F4AA900B7B4E0 /* DuducatSharedDownloader.h */; };
+		D6372491193F538A00B7B4E0 /* DuducatTextOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = D6372463193F4AA900B7B4E0 /* DuducatTextOperation.h */; };
+		D6372493193F550800B7B4E0 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D6372492193F550800B7B4E0 /* libsqlite3.dylib */; };
+		D6372495193F551600B7B4E0 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6372494193F551600B7B4E0 /* ImageIO.framework */; };
+		D6412E83193F5F1200A5FEDF /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = D6412E79193F5F1200A5FEDF /* FMDatabase.m */; };
+		D6412E84193F5F1200A5FEDF /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D6412E7B193F5F1200A5FEDF /* FMDatabaseAdditions.m */; };
+		D6412E85193F5F1200A5FEDF /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = D6412E7D193F5F1200A5FEDF /* FMDatabasePool.m */; };
+		D6412E86193F5F1200A5FEDF /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = D6412E7F193F5F1200A5FEDF /* FMDatabaseQueue.m */; };
+		D6412E87193F5F1200A5FEDF /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = D6412E82193F5F1200A5FEDF /* FMResultSet.m */; };
+		D6412E94193F69E400A5FEDF /* DuducatDBUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D6372486193F524700B7B4E0 /* DuducatDBUtil.m */; };
+		D6412E96193F69E400A5FEDF /* UIImageView+DuducatSDWebImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D637247A193F4EC200B7B4E0 /* UIImageView+DuducatSDWebImageView.m */; };
+		D6412E98193F69E400A5FEDF /* UILabel+Duducat.m in Sources */ = {isa = PBXBuildFile; fileRef = D637247C193F4EC200B7B4E0 /* UILabel+Duducat.m */; };
+		D6412E9A193F69E400A5FEDF /* Duducat.m in Sources */ = {isa = PBXBuildFile; fileRef = D637245A193F4AA900B7B4E0 /* Duducat.m */; };
+		D6412E9C193F69E400A5FEDF /* DuducatNetUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D637245C193F4AA900B7B4E0 /* DuducatNetUtil.m */; };
+		D6412E9E193F69E400A5FEDF /* DuducatObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D637245E193F4AA900B7B4E0 /* DuducatObject.m */; };
+		D6412EA0193F69E400A5FEDF /* DuducatOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D6372460193F4AA900B7B4E0 /* DuducatOperation.m */; };
+		D6412EA2193F69E400A5FEDF /* DuducatSharedDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = D6372462193F4AA900B7B4E0 /* DuducatSharedDownloader.m */; };
+		D6412EA4193F69E400A5FEDF /* DuducatTextOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D6372464193F4AA900B7B4E0 /* DuducatTextOperation.m */; };
+		D6412EA81940113100A5FEDF /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6412EA71940113100A5FEDF /* CoreTelephony.framework */; };
+		D6412EAB194018FC00A5FEDF /* UIDevice+Enhanced.h in Headers */ = {isa = PBXBuildFile; fileRef = D6412EA9194018FC00A5FEDF /* UIDevice+Enhanced.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6412EAC194018FC00A5FEDF /* UIDevice+Enhanced.m in Sources */ = {isa = PBXBuildFile; fileRef = D6412EAA194018FC00A5FEDF /* UIDevice+Enhanced.m */; };
+		D6412EAD19401A0100A5FEDF /* UIDevice+Enhanced.m in Sources */ = {isa = PBXBuildFile; fileRef = D6412EAA194018FC00A5FEDF /* UIDevice+Enhanced.m */; };
+		D66A00C91941A1E9001EC867 /* DuducatConstant.h in Headers */ = {isa = PBXBuildFile; fileRef = D66A00C71941A1E9001EC867 /* DuducatConstant.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6A354D51940C089009959A7 /* DuducatResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = D6A354D31940C089009959A7 /* DuducatResponse.h */; };
+		D6A354D61940C089009959A7 /* DuducatResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A354D41940C089009959A7 /* DuducatResponse.m */; };
+		D6A354D71940C512009959A7 /* DuducatResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A354D41940C089009959A7 /* DuducatResponse.m */; };
+		D6A354D81940C549009959A7 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6A354D11940B58B009959A7 /* SDWebImage.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D62F02E8195095FD00FE69BF /* UITextView+Duducat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+Duducat.h"; sourceTree = "<group>"; };
+		D62F02E9195095FD00FE69BF /* UITextView+Duducat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Duducat.m"; sourceTree = "<group>"; };
+		D637240C193F487400B7B4E0 /* DuducatFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DuducatFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D637240F193F487400B7B4E0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D6372411193F487400B7B4E0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D6372413193F487400B7B4E0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D6372417193F487400B7B4E0 /* DuducatFramework-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DuducatFramework-Info.plist"; sourceTree = "<group>"; };
+		D6372419193F487400B7B4E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D637241B193F487400B7B4E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D637241D193F487400B7B4E0 /* DuducatFramework-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DuducatFramework-Prefix.pch"; sourceTree = "<group>"; };
+		D637241E193F487400B7B4E0 /* DuducatAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DuducatAppDelegate.h; sourceTree = "<group>"; };
+		D637241F193F487400B7B4E0 /* DuducatAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DuducatAppDelegate.m; sourceTree = "<group>"; };
+		D6372422193F487400B7B4E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6372424193F487400B7B4E0 /* DuducatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DuducatViewController.h; sourceTree = "<group>"; };
+		D6372425193F487400B7B4E0 /* DuducatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DuducatViewController.m; sourceTree = "<group>"; };
+		D6372427193F487400B7B4E0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D6372448193F48A000B7B4E0 /* Duducat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Duducat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6372459193F4AA900B7B4E0 /* Duducat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Duducat.h; sourceTree = "<group>"; };
+		D637245A193F4AA900B7B4E0 /* Duducat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Duducat.m; sourceTree = "<group>"; };
+		D637245B193F4AA900B7B4E0 /* DuducatNetUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DuducatNetUtil.h; sourceTree = "<group>"; };
+		D637245C193F4AA900B7B4E0 /* DuducatNetUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DuducatNetUtil.m; sourceTree = "<group>"; };
+		D637245D193F4AA900B7B4E0 /* DuducatObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DuducatObject.h; sourceTree = "<group>"; };
+		D637245E193F4AA900B7B4E0 /* DuducatObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DuducatObject.m; sourceTree = "<group>"; };
+		D637245F193F4AA900B7B4E0 /* DuducatOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DuducatOperation.h; sourceTree = "<group>"; };
+		D6372460193F4AA900B7B4E0 /* DuducatOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DuducatOperation.m; sourceTree = "<group>"; };
+		D6372461193F4AA900B7B4E0 /* DuducatSharedDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DuducatSharedDownloader.h; sourceTree = "<group>"; };
+		D6372462193F4AA900B7B4E0 /* DuducatSharedDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DuducatSharedDownloader.m; sourceTree = "<group>"; };
+		D6372463193F4AA900B7B4E0 /* DuducatTextOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DuducatTextOperation.h; sourceTree = "<group>"; };
+		D6372464193F4AA900B7B4E0 /* DuducatTextOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DuducatTextOperation.m; sourceTree = "<group>"; };
+		D6372479193F4EC200B7B4E0 /* UIImageView+DuducatSDWebImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+DuducatSDWebImageView.h"; sourceTree = "<group>"; };
+		D637247A193F4EC200B7B4E0 /* UIImageView+DuducatSDWebImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+DuducatSDWebImageView.m"; sourceTree = "<group>"; };
+		D637247B193F4EC200B7B4E0 /* UILabel+Duducat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Duducat.h"; sourceTree = "<group>"; };
+		D637247C193F4EC200B7B4E0 /* UILabel+Duducat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Duducat.m"; sourceTree = "<group>"; };
+		D6372486193F524700B7B4E0 /* DuducatDBUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DuducatDBUtil.m; sourceTree = "<group>"; };
+		D6372487193F524700B7B4E0 /* DuducatDBUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DuducatDBUtil.h; sourceTree = "<group>"; };
+		D6372492193F550800B7B4E0 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		D6372494193F551600B7B4E0 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		D6412E78193F5F1200A5FEDF /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = Duducat/FMDatabase.h; sourceTree = "<group>"; };
+		D6412E79193F5F1200A5FEDF /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = Duducat/FMDatabase.m; sourceTree = "<group>"; };
+		D6412E7A193F5F1200A5FEDF /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = Duducat/FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		D6412E7B193F5F1200A5FEDF /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = Duducat/FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		D6412E7C193F5F1200A5FEDF /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = Duducat/FMDatabasePool.h; sourceTree = "<group>"; };
+		D6412E7D193F5F1200A5FEDF /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = Duducat/FMDatabasePool.m; sourceTree = "<group>"; };
+		D6412E7E193F5F1200A5FEDF /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = Duducat/FMDatabaseQueue.h; sourceTree = "<group>"; };
+		D6412E7F193F5F1200A5FEDF /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = Duducat/FMDatabaseQueue.m; sourceTree = "<group>"; };
+		D6412E80193F5F1200A5FEDF /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = Duducat/FMDB.h; sourceTree = "<group>"; };
+		D6412E81193F5F1200A5FEDF /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = Duducat/FMResultSet.h; sourceTree = "<group>"; };
+		D6412E82193F5F1200A5FEDF /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = Duducat/FMResultSet.m; sourceTree = "<group>"; };
+		D6412EA71940113100A5FEDF /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		D6412EA9194018FC00A5FEDF /* UIDevice+Enhanced.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Enhanced.h"; sourceTree = "<group>"; };
+		D6412EAA194018FC00A5FEDF /* UIDevice+Enhanced.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Enhanced.m"; sourceTree = "<group>"; };
+		D66A00C71941A1E9001EC867 /* DuducatConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DuducatConstant.h; sourceTree = "<group>"; };
+		D6A354D11940B58B009959A7 /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDWebImage.framework; sourceTree = "<group>"; };
+		D6A354D31940C089009959A7 /* DuducatResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DuducatResponse.h; sourceTree = "<group>"; };
+		D6A354D41940C089009959A7 /* DuducatResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DuducatResponse.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6372409193F487400B7B4E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6A354D81940C549009959A7 /* SDWebImage.framework in Frameworks */,
+				D6412EA81940113100A5FEDF /* CoreTelephony.framework in Frameworks */,
+				D6372495193F551600B7B4E0 /* ImageIO.framework in Frameworks */,
+				D6372493193F550800B7B4E0 /* libsqlite3.dylib in Frameworks */,
+				D6372412193F487400B7B4E0 /* CoreGraphics.framework in Frameworks */,
+				D6372414193F487400B7B4E0 /* UIKit.framework in Frameworks */,
+				D6372410193F487400B7B4E0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6372445193F48A000B7B4E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6372403193F487400B7B4E0 = {
+			isa = PBXGroup;
+			children = (
+				D6372415193F487400B7B4E0 /* DuducatFramework */,
+				D637244F193F48A000B7B4E0 /* Duducat */,
+				D637240E193F487400B7B4E0 /* Frameworks */,
+				D637240D193F487400B7B4E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D637240D193F487400B7B4E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D637240C193F487400B7B4E0 /* DuducatFramework.app */,
+				D6372448193F48A000B7B4E0 /* Duducat.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D637240E193F487400B7B4E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6A354D11940B58B009959A7 /* SDWebImage.framework */,
+				D6412EA71940113100A5FEDF /* CoreTelephony.framework */,
+				D6412E78193F5F1200A5FEDF /* FMDatabase.h */,
+				D6412E79193F5F1200A5FEDF /* FMDatabase.m */,
+				D6412E7A193F5F1200A5FEDF /* FMDatabaseAdditions.h */,
+				D6412E7B193F5F1200A5FEDF /* FMDatabaseAdditions.m */,
+				D6412E7C193F5F1200A5FEDF /* FMDatabasePool.h */,
+				D6412E7D193F5F1200A5FEDF /* FMDatabasePool.m */,
+				D6412E7E193F5F1200A5FEDF /* FMDatabaseQueue.h */,
+				D6412E7F193F5F1200A5FEDF /* FMDatabaseQueue.m */,
+				D6412E80193F5F1200A5FEDF /* FMDB.h */,
+				D6412E81193F5F1200A5FEDF /* FMResultSet.h */,
+				D6412E82193F5F1200A5FEDF /* FMResultSet.m */,
+				D6372494193F551600B7B4E0 /* ImageIO.framework */,
+				D6372492193F550800B7B4E0 /* libsqlite3.dylib */,
+				D637240F193F487400B7B4E0 /* Foundation.framework */,
+				D6372411193F487400B7B4E0 /* CoreGraphics.framework */,
+				D6372413193F487400B7B4E0 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6372415193F487400B7B4E0 /* DuducatFramework */ = {
+			isa = PBXGroup;
+			children = (
+				D637241E193F487400B7B4E0 /* DuducatAppDelegate.h */,
+				D637241F193F487400B7B4E0 /* DuducatAppDelegate.m */,
+				D6372421193F487400B7B4E0 /* Main.storyboard */,
+				D6372424193F487400B7B4E0 /* DuducatViewController.h */,
+				D6372425193F487400B7B4E0 /* DuducatViewController.m */,
+				D6372427193F487400B7B4E0 /* Images.xcassets */,
+				D6372416193F487400B7B4E0 /* Supporting Files */,
+			);
+			path = DuducatFramework;
+			sourceTree = "<group>";
+		};
+		D6372416193F487400B7B4E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6372417193F487400B7B4E0 /* DuducatFramework-Info.plist */,
+				D6372418193F487400B7B4E0 /* InfoPlist.strings */,
+				D637241B193F487400B7B4E0 /* main.m */,
+				D637241D193F487400B7B4E0 /* DuducatFramework-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D637244F193F48A000B7B4E0 /* Duducat */ = {
+			isa = PBXGroup;
+			children = (
+				D6412EA9194018FC00A5FEDF /* UIDevice+Enhanced.h */,
+				D6412EAA194018FC00A5FEDF /* UIDevice+Enhanced.m */,
+				D6372487193F524700B7B4E0 /* DuducatDBUtil.h */,
+				D6372486193F524700B7B4E0 /* DuducatDBUtil.m */,
+				D6372479193F4EC200B7B4E0 /* UIImageView+DuducatSDWebImageView.h */,
+				D637247A193F4EC200B7B4E0 /* UIImageView+DuducatSDWebImageView.m */,
+				D637247B193F4EC200B7B4E0 /* UILabel+Duducat.h */,
+				D637247C193F4EC200B7B4E0 /* UILabel+Duducat.m */,
+				D6372459193F4AA900B7B4E0 /* Duducat.h */,
+				D637245A193F4AA900B7B4E0 /* Duducat.m */,
+				D637245B193F4AA900B7B4E0 /* DuducatNetUtil.h */,
+				D637245C193F4AA900B7B4E0 /* DuducatNetUtil.m */,
+				D637245D193F4AA900B7B4E0 /* DuducatObject.h */,
+				D637245E193F4AA900B7B4E0 /* DuducatObject.m */,
+				D637245F193F4AA900B7B4E0 /* DuducatOperation.h */,
+				D6372460193F4AA900B7B4E0 /* DuducatOperation.m */,
+				D6372461193F4AA900B7B4E0 /* DuducatSharedDownloader.h */,
+				D6372462193F4AA900B7B4E0 /* DuducatSharedDownloader.m */,
+				D6372463193F4AA900B7B4E0 /* DuducatTextOperation.h */,
+				D6372464193F4AA900B7B4E0 /* DuducatTextOperation.m */,
+				D6A354D31940C089009959A7 /* DuducatResponse.h */,
+				D6A354D41940C089009959A7 /* DuducatResponse.m */,
+				D66A00C71941A1E9001EC867 /* DuducatConstant.h */,
+				D62F02E8195095FD00FE69BF /* UITextView+Duducat.h */,
+				D62F02E9195095FD00FE69BF /* UITextView+Duducat.m */,
+			);
+			path = Duducat;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D6372484193F4F3300B7B4E0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D637248A193F538A00B7B4E0 /* UIImageView+DuducatSDWebImageView.h in Headers */,
+				D6A354D51940C089009959A7 /* DuducatResponse.h in Headers */,
+				D637248B193F538A00B7B4E0 /* UILabel+Duducat.h in Headers */,
+				D637248C193F538A00B7B4E0 /* Duducat.h in Headers */,
+				D66A00C91941A1E9001EC867 /* DuducatConstant.h in Headers */,
+				D62F02EA195095FD00FE69BF /* UITextView+Duducat.h in Headers */,
+				D6412EAB194018FC00A5FEDF /* UIDevice+Enhanced.h in Headers */,
+				D6372489193F524700B7B4E0 /* DuducatDBUtil.h in Headers */,
+				D637248D193F538A00B7B4E0 /* DuducatNetUtil.h in Headers */,
+				D637248E193F538A00B7B4E0 /* DuducatObject.h in Headers */,
+				D637248F193F538A00B7B4E0 /* DuducatOperation.h in Headers */,
+				D6372490193F538A00B7B4E0 /* DuducatSharedDownloader.h in Headers */,
+				D6372491193F538A00B7B4E0 /* DuducatTextOperation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D637240B193F487400B7B4E0 /* DuducatFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D637243E193F487400B7B4E0 /* Build configuration list for PBXNativeTarget "DuducatFramework" */;
+			buildPhases = (
+				D6372408193F487400B7B4E0 /* Sources */,
+				D6372409193F487400B7B4E0 /* Frameworks */,
+				D637240A193F487400B7B4E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DuducatFramework;
+			productName = DuducatFramework;
+			productReference = D637240C193F487400B7B4E0 /* DuducatFramework.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6372447193F48A000B7B4E0 /* Duducat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6372456193F48A000B7B4E0 /* Build configuration list for PBXNativeTarget "Duducat" */;
+			buildPhases = (
+				D6372444193F48A000B7B4E0 /* Sources */,
+				D6372445193F48A000B7B4E0 /* Frameworks */,
+				D6372446193F48A000B7B4E0 /* Resources */,
+				D6372484193F4F3300B7B4E0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Duducat;
+			productName = Duducat;
+			productReference = D6372448193F48A000B7B4E0 /* Duducat.framework */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6372404193F487400B7B4E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Duducat;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "danyun.liu@gmail.com";
+			};
+			buildConfigurationList = D6372407193F487400B7B4E0 /* Build configuration list for PBXProject "DuducatFramework" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6372403193F487400B7B4E0;
+			productRefGroup = D637240D193F487400B7B4E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D637240B193F487400B7B4E0 /* DuducatFramework */,
+				D6372447193F48A000B7B4E0 /* Duducat */,
+				D637249B193F572600B7B4E0 /* aggregate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D637240A193F487400B7B4E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6372428193F487400B7B4E0 /* Images.xcassets in Resources */,
+				D637241A193F487400B7B4E0 /* InfoPlist.strings in Resources */,
+				D6372423193F487400B7B4E0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6372446193F48A000B7B4E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D637249F193F572E00B7B4E0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "Data provided by Pastebin.com - Download Raw - See Original\n#       ============Script Start==============\nif [ \"${ACTION}\" = \"build\" ]\nthen\n# Set the target folders and the final framework product.\nINSTALL_DIR=${SYMROOT}/Duducat.framework\nDEVICE_DIR=${SYMROOT}/Release-iphoneos\nSIMULATOR_DIR=${SYMROOT}/Release-iphonesimulator\n\n# Create and renews the final product folder.\nmkdir -p \"${INSTALL_DIR}\"\nrm -rf \"${INSTALL_DIR}\"\nrm -rf \"${INSTALL_DIR}/Duducat\"\n\n# Copy the header files to the final product folder.\nditto \"${DEVICE_DIR}/Duducat.framework/Headers\" \"${INSTALL_DIR}/Headers\"\n\n# Use the Lipo Tool to merge both binary files (i386 + armv6/armv7) into one Universal final product.\nlipo -create \"${DEVICE_DIR}/Duducat.framework/Duducat\" \"${SIMULATOR_DIR}/Duducat.framework/Duducat\" -output \"${INSTALL_DIR}/Duducat\"\nfi\n\ncp -rf ${SYMROOT}/Duducat.framework /Users/dyun/Desktop/\n\n#       ============Script End==============";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6372408193F487400B7B4E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6A354D71940C512009959A7 /* DuducatResponse.m in Sources */,
+				D6412EAD19401A0100A5FEDF /* UIDevice+Enhanced.m in Sources */,
+				D6412E94193F69E400A5FEDF /* DuducatDBUtil.m in Sources */,
+				D6412E96193F69E400A5FEDF /* UIImageView+DuducatSDWebImageView.m in Sources */,
+				D6412E98193F69E400A5FEDF /* UILabel+Duducat.m in Sources */,
+				D6412E9A193F69E400A5FEDF /* Duducat.m in Sources */,
+				D6412E9C193F69E400A5FEDF /* DuducatNetUtil.m in Sources */,
+				D6412E9E193F69E400A5FEDF /* DuducatObject.m in Sources */,
+				D6412EA0193F69E400A5FEDF /* DuducatOperation.m in Sources */,
+				D6412EA2193F69E400A5FEDF /* DuducatSharedDownloader.m in Sources */,
+				D6412EA4193F69E400A5FEDF /* DuducatTextOperation.m in Sources */,
+				D637241C193F487400B7B4E0 /* main.m in Sources */,
+				D6412E85193F5F1200A5FEDF /* FMDatabasePool.m in Sources */,
+				D6372426193F487400B7B4E0 /* DuducatViewController.m in Sources */,
+				D6412E86193F5F1200A5FEDF /* FMDatabaseQueue.m in Sources */,
+				D6372420193F487400B7B4E0 /* DuducatAppDelegate.m in Sources */,
+				D6412E83193F5F1200A5FEDF /* FMDatabase.m in Sources */,
+				D6412E87193F5F1200A5FEDF /* FMResultSet.m in Sources */,
+				D6412E84193F5F1200A5FEDF /* FMDatabaseAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6372444193F48A000B7B4E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D637246D193F4AA900B7B4E0 /* DuducatOperation.m in Sources */,
+				D6412EAC194018FC00A5FEDF /* UIDevice+Enhanced.m in Sources */,
+				D637246F193F4AA900B7B4E0 /* DuducatTextOperation.m in Sources */,
+				D637246E193F4AA900B7B4E0 /* DuducatSharedDownloader.m in Sources */,
+				D637246C193F4AA900B7B4E0 /* DuducatObject.m in Sources */,
+				D6372482193F4EC200B7B4E0 /* UILabel+Duducat.m in Sources */,
+				D62F02EB195095FD00FE69BF /* UITextView+Duducat.m in Sources */,
+				D637246B193F4AA900B7B4E0 /* DuducatNetUtil.m in Sources */,
+				D6372488193F524700B7B4E0 /* DuducatDBUtil.m in Sources */,
+				D6A354D61940C089009959A7 /* DuducatResponse.m in Sources */,
+				D637246A193F4AA900B7B4E0 /* Duducat.m in Sources */,
+				D6372481193F4EC200B7B4E0 /* UIImageView+DuducatSDWebImageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D6372418193F487400B7B4E0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6372419193F487400B7B4E0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D6372421193F487400B7B4E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6372422193F487400B7B4E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D637243C193F487400B7B4E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D637243D193F487400B7B4E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D637243F193F487400B7B4E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Duducat",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DuducatFramework/DuducatFramework-Prefix.pch";
+				INFOPLIST_FILE = "DuducatFramework/DuducatFramework-Info.plist";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D6372440193F487400B7B4E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Duducat",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DuducatFramework/DuducatFramework-Prefix.pch";
+				INFOPLIST_FILE = "DuducatFramework/DuducatFramework-Info.plist";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D6372457193F48A000B7B4E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)/Duducat",
+					"$(PROJECT_DIR)",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				MACOSX_DEPLOYMENT_TARGET = "";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				VALID_ARCHS = "armv7 armv7s arm64";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		D6372458193F48A000B7B4E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)/Duducat",
+					"$(PROJECT_DIR)",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				MACOSX_DEPLOYMENT_TARGET = "";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				VALID_ARCHS = "armv7 armv7s arm64";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		D637249D193F572600B7B4E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D637249E193F572600B7B4E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6372407193F487400B7B4E0 /* Build configuration list for PBXProject "DuducatFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D637243C193F487400B7B4E0 /* Debug */,
+				D637243D193F487400B7B4E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D637243E193F487400B7B4E0 /* Build configuration list for PBXNativeTarget "DuducatFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D637243F193F487400B7B4E0 /* Debug */,
+				D6372440193F487400B7B4E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6372456193F48A000B7B4E0 /* Build configuration list for PBXNativeTarget "Duducat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6372457193F48A000B7B4E0 /* Debug */,
+				D6372458193F48A000B7B4E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D637249C193F572600B7B4E0 /* Build configuration list for PBXAggregateTarget "aggregate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D637249D193F572600B7B4E0 /* Debug */,
+				D637249E193F572600B7B4E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6372404193F487400B7B4E0 /* Project object */;
+}
